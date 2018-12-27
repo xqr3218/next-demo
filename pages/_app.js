@@ -19,7 +19,7 @@ export default class MyApp extends App {
     render () {
         const { Component, pageProps } = this.props;
         return (
-            <div>12</div>
+            <div>12sadfasdf</div>
         )
     }
 }
