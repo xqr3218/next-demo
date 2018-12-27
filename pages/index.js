@@ -5,14 +5,14 @@ import List from '../components/list';
 const mapDispatchToProps = dispatch => {
     return {
         addList: (title) => {
-            dispatch({type:'ADD_LIST',title})
+            console.log(dispatch({type:'ADD_LIST',title}))
         }
     }
-}
+};
 
 const mapStateToProps = state => {
     return {list: state.listApp.lists}
-}
+};
 
 let i = 1;
 class Container extends React.Component{
