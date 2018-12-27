@@ -2,6 +2,6 @@ export default () => (
     <div>
         a
         {`not a`}
-        {`how to pull request?123`}
+        {`how to pull request?1asdf23`}
     </div>
 )
